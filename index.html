@@ -1,0 +1,339 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website-Brad</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <!-- https://getbootstrap.com/docs/5.2/components/navbar/ -->
+    <!-- Add class of bg-light to nav element -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-globe"></i> Code by Vincent</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#roadmap">Roadmap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+                
+        </div>
+        </div>
+    </nav>
+    
+    <!-- main banner -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/containers/ -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/grid/ -->
+    <!--<section class="container-fluid section bgimage" id="home">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero_text">
+                <!--<h3 class="hero_title">Hi, it's me Vincent Boss</h3>
+                <h3 class="hero_title animated-slide-in">Hi, it's me Vincent - Boss</h3>
+                <p class="hero_desc">Freelance<br>Designer&Developer</p>
+            </div>
+        </div>
+    </section>-->
+    
+
+    <section class="container-fluid section bgimage" id="home">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero_text">
+                <h6 class="hero_title">Hi, it's me Vincent Boss</h6>
+                <p class="hero_desc">Freelance<br>Designer&Developer</p>
+            </div>
+        </div>
+    </section>
+    
+    
+
+
+    <!-- about section -->
+    <section class="container mt-4 pt-4 section" id="about">
+        <h1 class="text-center">About Me</h1>
+        
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                <img src="images/yt22.jpg" class="image_about" height="">
+            </div>
+
+            <div class="col-lg-6">
+                <p> I'm a Computer Science student at University Of Kabianga. I have a passion for web development and design, and I enjoy creating engaging and user-friendly websites.<br>  I help companies from all over the world with tailor-made solutions. With each project, I push my work to new horizons, always putting quality first.           
+                </p>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <ol>
+                            <li>Web Development</li>
+                            <li>UI/UX Design</li>
+                            <li>Hosting and Deployment</li>
+
+                        </ol>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                          <li>Search Engine Optimization</li>
+                          <li>DevOps Consulting</li>
+                          <li>Quality Assurance Testing</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <p> In my free time, I enjoy coding, exploring new technologies, and working on personal projects. I believe in continuous learning and staying updated with the latest industry trends.
+                        I'm passionate about creating innovative and user-centered web solutions that make a positive impact.
+    
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- services section-->
+    <!-- https://getbootstrap.com/docs/5.2/components/card/#about -->
+    <section class="container section" id="services">
+        <h1 class="text-center">Services</h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class="fas servicesIcon fa-clock"></i>
+                        <h4 class="card-title mt-3">Website Development</h4>
+                        <p class="card-text mt-3">I specialize in creating responsive and feature-rich websites using the latest web technologies.</p>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-layer-group'></i>
+                        <h4 class="card-title mt-3">Website Design</h4>
+                        <p class="card-text mt-3">With a solid track record in designing websites and apps, I deliver strong and user-friendly digital designs. Solid company branding is the foundation of any succesful website.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='far servicesIcon fa-check-circle'></i>
+                        <h4 class="card-title mt-3">The Full Package</h4>
+                        <p class="card-text mt-3">A complete website from concept to implementation, that's what makes me stand out. My great sense for design and my development skills enable me to create kick-ass projects.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+       
+
+    <!-- portfolio section-->
+    <section class="section" id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">YouTube Clone</h4>
+                            <p class="card-text">Dive into the world of video streaming with my YouTube Clone project. It's a fully functional replica that showcases my expertise in front-end and back-end development..</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Quiz App</h4>
+                            <p class="card-text">Test your knowledge with my Quiz App, designed to provide an interactive and educational experience. It's a testament to my skills in user interface design and interactive web applications.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/portfolioImage3.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Product Landing Page</h4>
+                            <p class="card-text">Explore my Product Landing Page, a visually captivating platform that highlights my proficiency in<br> crafting aesthetically pleasing and conversion-focused web designs.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        
+<!-- Roadmap section -->
+<section class="container mt-4 pt-4 section" id="roadmap">
+    <h1 class="text-center">Roadmap</h1>
+    
+    <!-- Content container with two columns -->
+    <div class="row mt-4">
+        <!-- Left column for the HTML table -->
+        <div class="col-lg-6">
+            <!-- HTML Table -->
+             
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Skills & Knowledge</th>
+                        <th>Tools & Technologies</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Front-End Development</td>
+                        <td>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                                <li>Responsive Design</li>
+                                <li>UI/UX Design</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Code Editor (e.g., VS Code)</li>
+                                <li>Version Control (e.g., Git)</li>
+                                <li>Web Browsers (e.g., Chrome, Firefox)</li>
+                                <li>Front-End Frameworks (e.g., React, Vue)</li>
+                                <li>CSS Preprocessors (e.g., SASS, LESS)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Back-End Development</td>
+                        <td>
+                            <ul>
+                                <li>Server-Side Scripting (e.g., Node.js, Python, Ruby)</li>
+                                <li>API Development</li>
+                                <li>Database Management (e.g., SQL, NoSQL)</li>
+                                
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Server Environment (e.g., Node.js runtime)</li>
+                                <li>Database Management Systems</li>
+                                <li>API Frameworks (e.g., Express.js)</li>
+                                
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>    
+            </table>
+        </div>
+        
+        <!-- Right column for the YouTube video -->
+        <div class="col-lg-6">
+            <!-- YouTube Video -->
+            <div class="embed-responsive embed-responsive-16by9">
+            
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/l6hjm7kFcPo?si=BUVyLIApm9CzfcFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    
+    <!-- contact section-->
+    <!-- https://getbootstrap.com/docs/5.2/forms/overview -->
+    <section class="container mt-3 section" id="contact">
+        <h1 class="text-center">Contact Me</h1>
+
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                <!-- to edit google map go to https://www.embed-map.com type your location, generate html code and copy the html  -->
+                
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="my-map-display" style="height:100%; width:100%;max-width:100%;">
+                        <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=University+Of+Kabianga,+Kenya&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                        </iframe>
+                        </div><a class="our-googlemap-code" href="https://www.bootstrapskins.com/themes" id="get-data-for-embed-map">premium bootstrap themes</a>
+                        <style>#my-map-display img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style>
+                    </div>
+                   
+            </div>
+
+            <div class="col-lg-6">
+                <!-- form fields -->
+                <form>
+                    <input type="text" class="form-control form-control-lg" placeholder="Name">
+                    <input type="email" class="form-control mt-3" placeholder="Email">
+                    <input type="text" class="form-control mt-3" placeholder="Subject">
+                    <div class="mb-3 mt-3">
+                        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                    </div>
+                </form>
+                <button type="button" class="btn btn-success mt-3">Contact Me</button>
+            </div>
+        </div>
+        
+    </section>
+    
+    
+
+    
+    <!-- footer section-->
+    <footer class="container-fluid footer" id="footer">
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+            <h1>Nyasimi Vincent Reg No.COM/M/0068/2021</h1>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+        </div>
+    </footer>
+    
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
