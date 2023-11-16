@@ -31,7 +31,7 @@
 
 /* Apply the animation to the hero_title class */
 .hero_title {
-  animation: moveText 13s linear infinite; /* Adjust duration as needed */
+  animation: moveText 20s linear infinite; /* Adjust duration as needed */
   white-space: nowrap; /* Prevent text from wrapping to the next line */
   width: 100%; /* Set the width to 100% to cover the whole screen */
   position: absolute; /* Position the text absolutely to cover the screen */
