@@ -11,8 +11,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit();
     }
 
-    // Your email address
-    $to = "nyasimiv310@gmail.com";
+    // Your domain name
+    $email_from ="https://smartvinny.github.io/vincent-portfolio.com/#contact";
 
     // Email subject
     $email_subject = "New Contact Form Submission: $subject";
@@ -22,6 +22,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email_message .= "Email: $email\n";
     $email_message .= "Subject: $subject\n\n";
     $email_message .= "Message:\n$message";
+
+    $to = "nyasimiv310@gmail.com";
 
     // Additional headers
     $headers = "From: $email\r\n";
@@ -34,4 +36,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Error sending email. Please try again later.";
     }
 }
+
 ?>
