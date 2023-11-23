@@ -120,7 +120,7 @@
         </div>
     </section>
 
-    <!-- Portfolio Section -->
+    
     
     <!-- portfolio section-->
     <section class="section" id="portfolio">
@@ -229,11 +229,9 @@
                     </tbody>
                 </table>
             </div>
-        </div>
-        
+        </div>        
         <!-- Right column for the YouTube video -->
-        <div class="col-lg-6">
-            
+        <div class="col-lg-6">            
             <!-- YouTube Video -->
             <div class="embed-responsive embed-responsive-16by9">
                 <iframe width="500" height="315" src="https://www.youtube.com/embed/C-EHoNfkoDM?si=gw-jD-PAFXgP5pBH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -265,9 +263,10 @@
 
             <div class="col-lg-6">
                 <!-- form fields -->
-                <form action="process_contact.php" method="post">
+                <form>
                     <input type="text" class="form-control form-control-lg" placeholder="Name">
                     <input type="email" class="form-control mt-3" placeholder="Email">
+                    <input type="text" class="form-control mt-3" placeholder="Phone Number">
                     <input type="text" class="form-control mt-3" placeholder="Subject">
                     <div class="mb-3 mt-3">
                         <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
@@ -275,6 +274,12 @@
                 </form>
                 <button type="button" class="btn btn-success mt-3">Contact Me</button>
             </div>
+            <!-- Add php -->
+            <?php if(!empty($message)){ ?>
+         <div class="success">
+            <strong><?php echo $message; ?></strong>
+         </div> 
+         <?php } ?>  
         </div>
         
     </section>
